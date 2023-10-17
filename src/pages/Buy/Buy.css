@@ -1,0 +1,19 @@
+.BuyGMXGLP {
+  background: #222121;
+  justify-content: space-between;
+  /* margin: -0.8rem; */
+}
+
+.BuyGMXGLP-container {
+  padding: 0 0 3.1rem 0;
+  width: 100%;
+}
+
+/* .BuyGMXGLP-container .section-title-content {
+    justify-content: flex-start;
+  } */
+.Buy-token-cards {
+  background: #272727;
+  border-radius: 12px;
+  padding: 1.6rem;
+}

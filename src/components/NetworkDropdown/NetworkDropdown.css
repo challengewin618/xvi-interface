@@ -1,0 +1,273 @@
+.App-header-network {
+  position: relative;
+  margin-left: 1.2rem;
+  background: rgba(49, 49, 49, 0.6);
+  /* Tundora/60% */
+
+  border: 1px solid rgba(61, 60, 61, 0.6);
+  border-radius: 8.9rem;
+  height: 4rem;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+}
+
+.App-header-language {
+  margin-left: 0;
+}
+
+.network-dropdown {
+  display: inline-flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+}
+.network-dropdown-items {
+  min-width: 17rem;
+  padding-bottom: 0.8rem;
+}
+.network-dropdown-items:last-child {
+  padding-bottom: 0;
+}
+
+.network-dropdown-divider {
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(49, 49, 49, 0.6);
+}
+.network-dropdown:hover {
+  cursor: pointer;
+}
+.network-dropdown:active {
+}
+
+.network-dropdown > button.transparent {
+  border-radius: 0.4rem;
+  border: none;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-left: 1.2rem;
+}
+.network-dropdown > button.transparent-BSCTestnet {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: none;
+  pointer-events: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7b230;
+}
+.network-dropdown > button.transparent-VelasTestnet {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  border: none;
+  pointer-events: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d48dc;
+}
+
+.network-dropdown-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding-top: 0.2rem;
+  object-fit: contain;
+}
+
+.language-popup .Modal-content {
+  width: 32rem;
+}
+
+.network-dropdown-seperator {
+  width: 1px;
+  background: var(--dark-blue-border);
+  margin: 0.8rem 0;
+}
+
+.menu-item-group {
+  display: flex;
+  align-items: center;
+}
+
+.network-dropdown-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  justify-content: space-between;
+}
+.last-dropdown-menu {
+  margin-bottom: 0.8rem;
+}
+.network-popup .Modal-content {
+  width: 100%;
+  max-width: 29.6rem;
+  margin: auto;
+}
+.network-option {
+  cursor: pointer;
+  background: #272727;
+  border: 1px solid #313131;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+.network-option:last-child {
+  margin-bottom: 0;
+}
+
+.network-option img {
+  width: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.network-option span {
+  font-size: var(--font-base);
+  letter-spacing: 0.29px;
+  color: #fff;
+}
+
+.network-option-img-label {
+  font-size: var(--font-md);
+  line-height: 2rem;
+  letter-spacing: 0.29px;
+  color: #fff;
+}
+
+.dropdown-label {
+  color: #a0a3c4;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+}
+
+.language-popup .Modal-body {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.language-modal-item {
+  border: 1px solid var(--dark-blue-border);
+  cursor: pointer;
+}
+
+.language-modal-item.active {
+  border: 1px solid #a1a3c4;
+}
+
+.menu-item-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+}
+
+.network-dropdown-headings {
+  padding: 0.8rem 0.8rem 0.4rem 0.8rem;
+  opacity: 0.7;
+  font-size: 1.25rem;
+}
+
+.network-dropdown-item-label {
+  margin-left: 0.8rem;
+}
+
+.network-dropdown-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.menu-item:hover .menu-item-label {
+  color: #eee;
+}
+
+.active-dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}
+.network-dropdown-menu-item.menu-item .menu-item-icon {
+  border-radius: 0.8rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  background: rgba(49, 49, 49, 0.6);
+}
+
+.network-dropdown-menu-item.menu-item.BSCTestnet {
+  background: rgba(49, 49, 49, 0.4);
+}
+.network-dropdown-menu-item.menu-item.BSCTestnet .menu-item-icon {
+  background-color: #e7b230;
+  border-radius: 0.8rem;
+}
+.network-dropdown-menu-item.menu-item.VelasTestnet {
+  background: rgba(49, 49, 49, 0.4);
+}
+.network-dropdown-menu-item.menu-item.VelasTestnet .menu-item-icon {
+  background-color: #0d48dc;
+  border-radius: 0.8rem;
+}
+
+.network-dropdown-label {
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+  opacity: 0.7;
+}
+
+.more-options {
+  margin-top: 1rem;
+}
+.language-dropdown-menu {
+  width: 32px;
+  height: 18px;
+  opacity: 0.5;
+}
+.language-dropdown-menu.active {
+  opacity: 1;
+}
+.language-dropdown-menu img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1033px) {
+  .App-header-network {
+    margin-left: 1.6rem;
+  }
+  .App-header-language {
+    margin-left: 0;
+  }
+}
+@media (max-width: 520px) {
+  .App-header-network {
+    margin-left: 0.4rem;
+  }
+}
+@media (max-width: 480px) {
+  .App-header-network {
+    margin-left: 0.2rem;
+  }
+  .network-dropdown {
+    padding: 0.4rem 0 0.4rem 0.6rem;
+  }
+  .network-dropdown > button.transparent {
+    margin-left: 0.4rem;
+  }
+  .App-header-language {
+    margin-left: 0;
+  }
+  .network-dropdown > button {
+    padding: 0 0.5rem;
+  }
+  .network-dropdown.homepage-header > button {
+    padding: 0 0.8rem;
+  }
+}

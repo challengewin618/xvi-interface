@@ -1,0 +1,78 @@
+.buy-input .InputSection-static-input {
+  font-size: var(--font-lg);
+}
+
+.buy-input.Exchange-swap-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buy-input .TokenSelector-box {
+  display: flex;
+  align-items: center;
+  border-radius: 0.4rem;
+  /* padding: 0.5rem 0; */
+  color: #ffffff;
+  min-width: 4.65rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  justify-content: flex-end;
+}
+.buy-input .TokenSelector-box:hover {
+  color: #fbb33d;
+}
+
+.buy-input .Exchange-swap-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy-input .Exchange-swap-max {
+  position: unset;
+  color: white;
+  font-size: var(--font-sm);
+}
+
+.buy-input .TokenSelector-caret {
+  margin: 0;
+  margin-right: -0.5rem;
+}
+
+.buy-input .TokenSelector-box-symbol {
+  margin-left: 0.8rem;
+}
+
+.buy-input .PositionEditor-token-symbol {
+  /* display: flex;
+  align-items: center;
+  background: rgba(49, 49, 49, 0.4);
+  /* Charcoal/100% */
+
+  /* border: 1px solid #313131;
+  border-radius: 8px;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding: 0.8rem; */
+  max-width: 10rem;
+}
+
+.buy-input .PositionEditor-token-symbol img {
+  margin-right: 0.8rem;
+}
+
+.buy-input .Exchange-swap-section-top {
+  padding-bottom: 0.8rem;
+}
+
+.buy-input .selected-token {
+  /* padding-top: 0.5rem; */
+  /* padding-bottom: 0.5rem; */
+  display: flex;
+  align-items: center;
+}
+
+.buy-input .Exchange-swap-balance {
+  color: white;
+}

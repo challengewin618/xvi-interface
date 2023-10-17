@@ -1,0 +1,59 @@
+.asset-menu-items {
+  position: absolute;
+  border-radius: 0.4rem;
+
+  outline: none;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.center-both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-arrow {
+  cursor: pointer;
+  color: white;
+  opacity: 0.8;
+}
+.dropdown-arrow:hover {
+  opacity: 1;
+}
+.asset-item-arrow {
+  margin-top: 0.4rem;
+}
+
+.asset-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #cecece;
+  text-decoration: none;
+  font-size: var(--font-sm);
+  padding: 0.8rem 1.6rem;
+}
+.token-grid .asset-item-arrow {
+  margin-top: 0;
+}
+@media (max-width: 380px) {
+  .asset-item {
+    padding-left: 0;
+    margin-top: 0.4rem;
+  }
+}
+.asset-item:hover {
+  background: #272727;
+  color: white;
+  border-radius: 0.4rem;
+  transition: 0.3s all;
+}
+.asset-item p {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+.asset-item .asset-item-icon {
+  width: 2rem;
+  height: 2rem;
+}

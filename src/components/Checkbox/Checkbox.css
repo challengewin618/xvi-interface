@@ -1,0 +1,43 @@
+.Checkbox {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.Checkbox.disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+.Checkbox-icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Checkbox .Checkbox-icon {
+  font-size: 1.25rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0;
+  width: 2.8rem;
+  height: 2.8rem;
+
+  /* Tundora/100% */
+
+  background: #3d3c3d;
+  border-radius: 0.8rem;
+}
+
+.Checkbox.disabled .Checkbox-icon {
+  background: #3d3c3d;
+}
+
+.Checkbox-icon.inactive {
+  color: #3d3c3d;
+  background: rgba(39, 39, 39, 0.6);
+}
+.Checkbox-label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: var(--font-sm);
+}

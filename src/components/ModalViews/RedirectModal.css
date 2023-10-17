@@ -1,0 +1,98 @@
+.RedirectModal .Modal-content {
+  width: 40rem;
+  font-size: var(--font-base);
+  line-height: 1.9rem;
+}
+
+.RedirectModal .Modal-body .Checkbox {
+  align-items: center;
+}
+
+.RedirectModal .Modal-body .Checkbox-icon-wrapper {
+  display: block;
+}
+
+
+.RedirectModal .launch-app {
+  display: flex;
+}
+.RedirectModal .launch-app-desc {
+  margin: 0.5rem 0;
+  margin-left: 1.2rem;
+}
+.RedirectModal .launch-app-title {
+  font-weight: 700;
+  color: #ffffff;
+}
+.RedirectModal .launch-app-sub-title {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #989898;
+}
+.RedirectModal .submit-checkoption {
+  margin-top: 2.4rem;
+}
+.RedirectModal .submit-buttons {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.RedirectModal .redirect-model-submit-btn.inactive {
+  background: #313131;
+  border-radius: 8.9rem;
+  padding: 1.1rem 5.9rem;
+  text-decoration: none;
+  color: #3d3c3d;
+  font-weight: 700;
+}
+.RedirectModal .redirect-model-submit-btn:hover {
+  opacity: 0.8;
+  transition: 0.3s all;
+}
+.RedirectModal .redirect-model-submit-btn.active {
+  background: linear-gradient(#ffdea8 20.31%, #f9bd5d 47.62%, #e58d05 96.67%);
+  border-radius: 8.9rem;
+  padding: 1.1rem 5.9rem;
+  text-decoration: none;
+  color: #222121;
+  font-weight: 700;
+}
+.RedirectModal .redirect-model-close-btn {
+  border: 2px solid #313131;
+  border-radius: 8.9rem;
+  padding: 1.1rem 6rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+@media (max-width: 400px) {
+  .RedirectModal .Modal-content {
+    width:90vw;
+  }
+  .RedirectModal .submit-buttons {
+    margin-top: 2.4rem;
+    display: block;
+  }
+  .RedirectModal .redirect-model-submit-btn {
+    display: inline-block;
+    width:100%;
+    text-align: center;
+  }
+  .RedirectModal .redirect-model-close-btn {
+      display: inline-block;
+      width:100%;
+      text-align: center;
+      margin-top:1.2rem;
+  }
+}
+.RedirectModal .redirect-model-close-btn:hover {
+  transition: 0.2s all;
+  background-color: #313131;
+}
+.RedirectModal .launch-app-desc1 {
+  margin-top: 2.4rem;
+}
+.RedirectModal .launch-app-desc2 {
+  margin: 2.8rem 0 4.4rem 0;
+  color: #989898;
+}

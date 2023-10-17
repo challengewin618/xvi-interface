@@ -1,0 +1,28 @@
+.slider-card {
+  background: #313131;
+  border-radius: 12px;
+  max-width: 38.7rem;
+  min-height: 49rem;
+  margin-right: 4rem;
+}
+.slider-card img {
+  object-fit: cover;
+  width: 100%;
+}
+.slider-card-header {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+
+  color: #ffffff;
+  padding: 2.4rem 2.8rem 0.8rem 2.8rem;
+}
+
+.slider-card-body {
+  padding: 0 2.8rem 3.6rem 2.8rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+
+  color: #989898;
+}

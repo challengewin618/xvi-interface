@@ -1,0 +1,235 @@
+.DashboardV2 {
+  padding: 6.4rem 8rem;
+  background: #222121;
+}
+@media (max-width: 1033px) {
+  .DashboardV2 {
+    padding: 6.4rem 3.2rem;
+  }
+}
+.DashboardV2-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.6rem;
+  background: #272727;
+  border-radius: 12px;
+  padding: 1.6rem;
+}
+
+.DashboardV2-token-cards {
+  padding: 3.2rem;
+  background: #272727;
+  border-radius: 1.2rem;
+}
+
+.token-table-wrapper {
+  border: 1px solid #1e2136;
+  border-radius: 0.4rem;
+  background: #17182c;
+  text-align: left;
+}
+
+.token-table-wrapper .App-card-title {
+  justify-content: unset;
+}
+
+.token-table-wrapper .App-card-title img {
+  margin-right: 0.4rem;
+}
+
+.App-card-title-icon {
+  display: flex;
+  margin-left: 1.2rem;
+}
+
+.App-card-title-icon img + img {
+  margin-left: 0.6rem;
+}
+
+.stats-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.stats-wrapper .stats-card-title {
+  padding: 1.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.stats-wrapper .App-card {
+  width: 100%;
+}
+
+.stats-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 490px) {
+  .stats-block {
+    flex-wrap: wrap;
+  }
+}
+.stats-piechart {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.stats-block--glp .stats-label {
+  grid-row-gap: 0;
+}
+
+.stats-label {
+  font-size: var(--font-sm);
+  line-height: 1.6rem;
+  border-radius: 0.4rem;
+  padding: 1.05rem;
+  letter-spacing: 0.4px;
+  text-align: left;
+  z-index: 1;
+  background: linear-gradient(90deg, #0b0b0f 0%, rgba(10, 13, 28, 1) 100%);
+  cursor: pointer;
+}
+.stats-piechart-distribution {
+  margin: 1.2rem 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  color: #989898;
+}
+.stats-piechart-title {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  color: #cecece;
+}
+.stats-piechart-sub-title {
+  margin-bottom: 0.8rem;
+}
+.price-list-item {
+  font-size: 2rem;
+}
+.stats-piechart-distribution-percentage {
+  padding: 0.4rem 1.6rem;
+  border: 1px solid #3d3c3d;
+  border-radius: 1.6rem;
+}
+.stats-label-color {
+  width: 0.4rem;
+  height: 100%;
+  margin-right: 1.5rem;
+}
+
+.Available-network-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.8rem;
+}
+
+.Available-network-group .Tooltip {
+  display: flex;
+}
+
+.Available-network-group .Available-network {
+  display: flex;
+}
+
+.Available-network-group .Available-network img {
+  filter: grayscale(100%);
+}
+
+.Available-network-group .Tooltip-handle.active .Available-network img {
+  filter: unset;
+}
+
+.Available-network-group .Available-network img:hover {
+  filter: unset;
+}
+
+.token-table .token-symbol-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4.65rem;
+}
+
+.DashboardV2-token-cards .token-table td:nth-child(3),
+.DashboardV2-token-cards .token-table th:nth-child(3) {
+  width: 20rem;
+}
+.mobile-token-card {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+}
+@media (max-width: 378px) {
+  .mobile-token-card {
+    flex-wrap: wrap;
+  }
+}
+.token-symbol-text {
+  line-height: 1;
+}
+
+.mobile-token-card > img {
+  margin-right: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+  .stats-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+  }
+
+  .stats-wrapper .App-card {
+    max-width: unset !important;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .token-table-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .DashboardV2-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .DashboardV2-token-cards .token-grid {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 660px) {
+  .stats-wrapper .App-card {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+
+  .stats-piechart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 380px) {
+  .DashboardV2-token-cards {
+    padding: 3.2rem 0.8rem;
+  }
+}
+.stats-container {
+  width: 10rem;
+  height: 10rem;
+}

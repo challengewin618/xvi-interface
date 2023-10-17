@@ -1,0 +1,42 @@
+.card {
+  border-radius: 1.2rem;
+  background-color: #272727;
+}
+
+.card-header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  padding: 1.2rem;
+  background: linear-gradient(#3d3c3d 20.31%, #313131 47.62%, #262626 96.67%);
+}
+.card-title-group {
+  margin-left: 0.8rem;
+}
+.card-title-second {
+  color: #989898;
+  font-size: 1.6rem;
+}
+.card-divider {
+  height: 1px;
+  background: #23263b;
+}
+.card-body {
+  padding: 1.2rem;
+}
+.card-body > .App-card-content {
+  padding: 0;
+}
+.exchange-info-group {
+  padding: 1.2rem;
+  background: #222121;
+  border-radius: 12px;
+}
+.exchange-info-group > .BuyGMXGLP-description {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+}

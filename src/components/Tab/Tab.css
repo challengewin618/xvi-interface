@@ -1,0 +1,95 @@
+.Tab.block {
+  display: grid;
+  grid-auto-flow: column;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #3d3c3d;
+}
+.Tab.trade {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 0.6rem;
+}
+.Tab-option-icon {
+  margin-right: 0.465rem;
+  opacity: 0.7;
+}
+.Tab.trade .Tab-option {
+  background: #3d3c3d;
+  border-radius: 8px;
+  text-align: center;
+}
+.Tab.block .Tab-option {
+  text-align: center;
+  padding: 0.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: #989898;
+  cursor: pointer;
+  border-radius: 0.8rem;
+}
+.Tab .Tab-option.disabled {
+  color: #3d3c3d;
+}
+.Tab.trade .Tab-option:hover {
+  color: #222121;
+  background: linear-gradient(#ffdea8 20.31%, #f9bd5d 47.62%, #e58d05 96.67%);
+  cursor: pointer;
+  opacity: 1;
+  font-weight: bold;
+}
+.Tab.trade .Tab-option.active {
+  color: #222121;
+  background: linear-gradient(#ffdea8 20.31%, #f9bd5d 47.62%, #e58d05 96.67%);
+  cursor: pointer;
+  opacity: 1;
+  font-weight: bold;
+}
+.Tab.block .Tab-option:hover {
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#3d3c3d 20.31%, #313131 47.62%, #262626 96.67%);
+  transition: 0.3s all;
+}
+
+.Tab.block .Tab-option.active {
+  pointer-events: none;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#3d3c3d 20.31%, #313131 47.62%, #262626 96.67%);
+  border-radius: 0.8rem;
+  transition: 0.3s all;
+}
+.Tab.block .Tab-option.active span {
+  background-image: linear-gradient(#ffdea8 20.31%, #f9bd5d 47.62%, #e58d05 96.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Tab.block .Tab-option.active .Tab-option-icon {
+  opacity: 1;
+}
+
+.Tab.inline .Tab-option {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.4rem;
+  font-size: var(--font-base);
+  border: 1px solid #3d3c3d;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.4rem 0.8rem;
+}
+
+.Tab.inline .Tab-option:hover {
+  background: #3d3c3d;
+  opacity: 1;
+  transition: 0.3s all;
+}
+
+.Tab.inline .Tab-option.active {
+  opacity: 1;
+  background: #3d3c3d;
+  transition: 0.3s all;
+}

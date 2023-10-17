@@ -1,0 +1,81 @@
+.DashboardV2-projects {
+  display: grid;
+  grid-gap: 1.6rem;
+  background: #272727;
+  border-radius: 12px;
+  padding: 1.6rem;
+  grid-template-columns: 1fr 1fr;
+}
+.xvi-ecosystem-pages .DashboardV2-projects {
+  grid-template-columns: 1fr;
+}
+.xvi-ecosystem-pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3.6rem;
+}
+.DashboardV2-projects-header {
+  background: #272727;
+  border-radius: 12px;
+  padding: 3.2rem 4.4rem;
+  text-align: center;
+}
+.DashboardV2-project-title {
+  color: #ffffff;
+}
+.eco-btn {
+  background: linear-gradient(#3d3c3d 20.31%, #313131 47.62%, #262626 96.67%) !important;
+  border-radius: 0.8rem !important;
+  padding: 1.2rem !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.eco-btn:hover {
+  background: linear-gradient(#444 20.31%, #313131 47.62%, #171717 96.67%) !important;
+  transition: 0.3s all;
+}
+.eco-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 4.4rem;
+  margin-bottom: 1.6rem;
+}
+.project-desc {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 3.2rem;
+  color: #989898;
+}
+.DashboardV2-projects-header img {
+  border: 1px solid #3d3c3d;
+  border-radius: 12px;
+  width: 100%;
+}
+.ecosystem-container {
+  padding-bottom: 16.2rem;
+  background: #222121;
+}
+@media (max-width: 1000px) {
+  .xvi-ecosystem-pages {
+    grid-template-columns: 1fr;
+  }
+  .DashboardV2-projects-header {
+    grid-row: 1;
+  }
+  .last-eco-page .DashboardV2-projects-header {
+    grid-row: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .DashboardV2-projects {
+    grid-template-columns: 1fr;
+  }
+}
+.last-eco-page {
+  margin-top: 6.4rem;
+}
